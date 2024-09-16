@@ -1,0 +1,93 @@
+
+.div1{
+    display: flex;
+    background-color:#c8c7c7;
+    padding: 5px;
+    text-decoration: none;
+    gap:250px;
+    
+    
+    
+}
+
+
+#footer{
+    background-color:  #030c0a;
+    color: #f0f8ff;
+    
+    
+    
+   
+}
+.div3{
+    background-color: hwb(0 71% 28%);
+    display: flex;  
+    height: 800px;
+    padding: 20px;
+    margin-top: 100px;
+    gap: 20px;
+
+}
+#plan1,#plan2,#plan3,#plan4{
+    width: 320px;
+    height: 700px;
+    background-color: #f0f8ff;
+    margin-top: 30px;
+
+}
+#plan1:hover{
+    transform: scale(1.03);
+    box-shadow: 10px;
+}
+#plan2:hover{
+    transform: scale(1.03);
+    box-shadow: 10px;
+}
+#plan3:hover{
+    transform: scale(1.03);
+    box-shadow: 10px;
+}
+#plan4:hover{
+    transform: scale(1.03);
+    box-shadow: 10px;
+}
+
+
+button{
+    background-color: #2d2c2c;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#img1{
+    position: relative;
+    left:auto;
+}
+
+#img2{
+    position: relative;
+    left:auto;
+}
+
+#img3{
+    position: relative;
+    left:auto;
+}
+
+#img4{
+    position: relative;
+    left:auto;
+}
+#menber{
+    position: relative;
+}
+#bmember{
+    position: absolute;
+    left: 500px;
+    top:210px
+}
+button:hover{
+    background-color: #b32323;
+    transition: all 0.5s ease-in;
+}

@@ -1,10 +1,12 @@
 
 .div1{
     display: flex;
-    background-color:#c8c7c7;
+    background-color:#f5f5f5;
     padding: 5px;
     text-decoration: none;
-    gap:250px;
+    gap:50px;
+    font-weight: bolder;
+    font-size: 16.7px;
     
     
     
@@ -19,37 +21,56 @@
     
    
 }
-.div3{
-    background-color: hwb(0 71% 28%);
+.div31{
     display: flex;  
-    height: 800px;
-    padding: 20px;
-    margin-top: 100px;
-    gap: 20px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 10px;
+    gap: 150px;
 
 }
-#plan1,#plan2,#plan3,#plan4{
-    width: 320px;
-    height: 700px;
-    background-color: #f0f8ff;
-    margin-top: 30px;
+.div32{
+    display: flex;  
+    height: 600px;
+    padding: 10px;
+    margin-top: 10px;
+    gap: 150px;
+    
 
+}
+#plan1,#plan2{
+    width: 500px;
+    height: 500px;
+    background-color: #f0f8ff;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1;
+
+}
+#plan3,#plan4{
+    width: 500px;
+    height: 500px;
+    background-color: #f0f8ff;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1;
 }
 #plan1:hover{
     transform: scale(1.03);
-    box-shadow: 10px;
+    box-shadow: 10px #817d7d;
 }
 #plan2:hover{
     transform: scale(1.03);
-    box-shadow: 10px;
+    box-shadow:10px #676464;
+
 }
 #plan3:hover{
     transform: scale(1.03);
-    box-shadow: 10px;
+    box-shadow: #676464;
 }
 #plan4:hover{
     transform: scale(1.03);
-    box-shadow: 10px;
+    box-shadow: 10px #060505;
 }
 
 
@@ -60,34 +81,37 @@ button{
     margin-top: 20px;
     border-radius: 10px;
 }
-#img1{
-    position: relative;
-    left:auto;
-}
 
-#img2{
-    position: relative;
-    left:auto;
-}
-
-#img3{
-    position: relative;
-    left:auto;
-}
-
-#img4{
-    position: relative;
-    left:auto;
-}
-#menber{
+#member{
     position: relative;
 }
 #bmember{
     position: absolute;
     left: 500px;
-    top:210px
+    top:470px
 }
 button:hover{
     background-color: #b32323;
-    transition: all 0.5s ease-in;
+    border:#b32323;
+    transition: all 0.3s ease-in;
 }
+#benifits{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: auto;
+    width: auto;
+    gap: 50px;
+    margin-left: 20px;
+   
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b7,#b8{
+    width: 200px;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: #f0f8ff;
+}
+#log:hover{
+    background-color: red;
+}
+
